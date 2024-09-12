@@ -1,7 +1,7 @@
 
-Welcome to My Profile 👋💞️⚡
+#Welcome to My Profile 👋💞️⚡
 
-👋 Hi, I’m @SidraTanveer, a dedicated and passionate front-end developer with a strong interest in creating responsive, user-friendly, and visually appealing web applications.
+👋 Hi, I’m @SidraTanveer, a dedicated and passionate #front-end developer with a strong interest in creating responsive, user-friendly, and visually appealing web applications.
 
 👀 Technical Interests:
 - Front-end development using modern frameworks and libraries
