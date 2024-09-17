@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="header-left">
+            <h1><span class="text-primary">My Portfolio</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <div class="intro">
+            <h1 class="home-heading">Hello, I'm Sidra Tanveer</h1>
+            <p class="home-subheading">A passionate Front-end Developer!</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h1>About Me</h1>
+        <div class="row">
+            <div class="column">
+                <h2>Education</h2>
+                <p id="education">Matric (2017-2019) from SPS Okara. <br>
+                  Pre-Medical (2019-2021) from PGC Okara.</p>
+            </div>
+            <div class="column">
+                <h2>Courses</h2>
+                <p id="courses">Web Developement (Continue) <br>
+                  Graphic Design (2022)
+                </p>
+            </div>
+            <div class="column">
+                <h2>Current Status</h2>
+                <p id="currentStatus">Intern @ DeveloperHub Corporation <br>
+                  Bachelor's Degree in Computer Science (2022-2026) from University of Okara.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <h2>Skills</h2>
+        <div class="skill-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Git</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Personal Portfolio</h3>
+                <img src="images/Annotation 2024-09-12 224534.png" alt="Project 1 Image">
+                <p>HTML | CSS | JS</p>
+                <a href="https://github.com/SidraTanveer/DHC-03-Front-end-Developer.git">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <img src="project2.jpg" alt="Project 2 Image">
+                <p>A brief description of Project 2.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <img src="project3.jpg" alt="Project 3 Image">
+                <p>A brief description of Project 3.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 4</h3>
+                <img src="project4.jpg" alt="Project 4 Image">
+                <p>A brief description of Project 4.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="contact-image">
+            <img width="60%" src="images/image.png.png" alt="Front-End Developer">
+        </div>
+        <div class="contact-form">
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get in Touch Through</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required placeholder="Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <br><br><br>
+    <br>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Front-End Developer | <a href="https://www.linkedin.com/in/sidra-tanveer-9a37a6326/">LinkedIn</a> | <a href="https://github.com/SidraTanveer/DHC-03-Front-end-Developer.git">GitHub</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
