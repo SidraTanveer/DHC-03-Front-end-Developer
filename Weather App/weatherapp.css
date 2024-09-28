@@ -1,0 +1,86 @@
+.weather-app {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-gap: 20px;
+     padding: 20px;
+   }
+   
+   header {
+     background-color: #333;
+     color: #fff;
+     padding: 20px;
+     text-align: center;
+   }
+   
+   form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 20px;
+   }
+   
+   input[type="text"] {
+     padding: 10px;
+     font-size: 18px;
+     border: none;
+     border-radius: 5px;
+     width: 100%;
+   }
+   
+   button[type="submit"] {
+     background-color: #333;
+     color: #fff;
+     padding: 10px 20 px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+   }
+   
+   .weather-data {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-gap: 20px;
+   }
+   
+   .current-weather {
+     background-color: #f7f7f7;
+     padding: 20px;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+   }
+   
+   .forecast {
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     grid-gap: 20px;
+   }
+   
+   .forecast-day {
+     background-color: #f7f7f7;
+     padding: 20px;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+   }
+   
+   .error-message {
+     color: red;
+     padding: 20px;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+   }
+   
+   .loading-indicator {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+   }
+   
+   @media (max-width: 768px) {
+     .weather-app {
+       grid-template-columns: 1fr;
+     }
+     .forecast {
+       grid-template-columns: 1fr;
+     }
+   }
